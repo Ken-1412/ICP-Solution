@@ -13,8 +13,6 @@ solution Link:-https://leetcode.com/problems/find-the-index-of-the-first-occurre
 
 solution Link :- https://leetcode.com/problems/3sum/submissions/1513585538
 
-discussed below problems  14/01/2026
-
 4) Medium-level Problem    Count Prime  LEET code no.204
 
 solution link :- https://leetcode.com/problems/count-primes/submissions/1644521988
