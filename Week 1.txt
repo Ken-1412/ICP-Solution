@@ -1,0 +1,28 @@
+WEEK 1:-
+Solution
+
+1)EASY Buy and sell problem
+
+solution Link- https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1892916605
+
+2)EASY  Find the Index of the First Occurrence in a String.
+
+solution Link:-https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/1455369605
+
+3)Medium level problem   -3SUM  LeetCode No. 15
+
+solution Link :- https://leetcode.com/problems/3sum/submissions/1513585538
+
+discussed below problems  14/01/2026
+
+4) Medium-level Problem    Count Prime  LEET code no.204
+
+solution link :- https://leetcode.com/problems/count-primes/submissions/1644521988
+
+5)HARD-  First Missing Positive  leetcode no.41
+
+solution Link:- https://leetcode.com/problems/first-missing-positive/submissions/1892922395
+
+6)HARD   Median of Two Sorted Arrays LEET code no.
+
+solution link:-https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1884559942
