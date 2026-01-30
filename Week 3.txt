@@ -1,0 +1,27 @@
+Solution Link :-
+
+problem 1:-
+
+LeetCode no   2073
+
+solution Link :- https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/1898290834
+
+LeetCode no   1823
+
+solution Link :- https://leetcode.com/problems/find-the-winner-of-the-circular-game/submissions/1899624678
+
+LeetCode no 3191 
+
+solution Link:- https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/submissions/1901499897
+
+LeetCode no 3589
+
+solution Link:- https://leetcode.com/problems/count-prime-gap-balanced-subarrays/submissions/1901498819
+
+Leetcode no 950
+
+solution Link:- https://leetcode.com/problems/reveal-cards-in-increasing-order/submissions/1901500624
+
+Leet code no 1696 
+
+solution Link :- https://leetcode.com/problems/jump-game-vi/submissions/1901502176
