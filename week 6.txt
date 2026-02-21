@@ -6,3 +6,15 @@ solution Link:-https://leetcode.com/problems/delete-leaves-with-a-given-value/su
 
 Q2:-2476
 solution Link:- https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/submissions/1923453008
+
+Q3:-
+solution Link:-
+
+Q4:- 1382
+solution link:-https://leetcode.com/problems/balance-a-binary-search-tree/submissions/1925122378
+
+Q5:-1932
+solution link:-https://leetcode.com/problems/merge-bsts-to-create-single-bst/submissions/1926125258
+
+Q6:-2673
+solution link:-https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/submissions/1926123190
