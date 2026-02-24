@@ -1,0 +1,71 @@
+BFS Question :-
+
+https://leetcode.com/problems/same-tree/submissions/1928386958/
+
+
+GFG Question :https://www.geeksforgeeks.org/problems/range-minimum-query/1
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int buildSTUtil(int arr[], int ss, int se, int *st, int si) {
+    if (ss == se) {
+        st[si] = arr[ss];
+        return st[si];
+    }
+    int mid = ss + (se - ss) / 2;
+    st[si] = min(buildSTUtil(arr, ss, mid, st, si * 2 + 1),
+                 buildSTUtil(arr, mid + 1, se, st, si * 2 + 2));
+    return st[si];
+}
+
+int *constructST(int arr[], int n) {
+    int x = (int)(ceil(log2(n)));
+    int maxSize = 2 * (int)pow(2, x) - 1;
+    int *st = new int[maxSize];
+    buildSTUtil(arr, 0, n - 1, st, 0);
+    return st;
+}
+
+int RMQUtil(int *st, int ss, int se, int qs, int qe, int si) {
+    if (qs <= ss && qe >= se)
+        return st[si];
+    if (se < qs || ss > qe)
+        return INT_MAX;
+    int mid = ss + (se - ss) / 2;
+    return min(RMQUtil(st, ss, mid, qs, qe, 2 * si + 1),
+               RMQUtil(st, mid + 1, se, qs, qe, 2 * si + 2));
+}
+
+int RMQ(int st[], int n, int a, int b) {
+    if (a < 0 || b > n - 1 || a > b)
+        return -1;
+    return RMQUtil(st, 0, n - 1, a, b, 0);
+}
+
+
+GFG Question:-
+Sum of Query 2
+
+
+class Solution{
+public:
+    vector<int> querySum(int n, int A[], int q, int queries[])
+    {
+        vector<int>ans;
+        int i=0;
+        
+        while(q--){
+	        int a,b;
+	       a=queries[i];
+	       b=queries[i+1];
+	        long long int sum=0;
+	        for(int i=a;i<=b;i++){
+	            sum=sum+A[i-1];
+	        }
+	        ans.push_back(sum);
+	        i+=2;
+	    }
+	    return ans;
+    }
+};
